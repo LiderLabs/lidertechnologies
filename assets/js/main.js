@@ -207,3 +207,48 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+
+// Scrolling clients track
+const clientsTrack = document.querySelector(".clients-track");
+
+let direction = 1;
+
+function moveClients() {
+  const client = clientsTrack.querySelector(".client-logo");
+
+  if (!client) return;
+
+  const gap = 30;
+
+  const scrollAmount = client.offsetWidth + gap;
+
+  const maxScroll =
+    clientsTrack.scrollWidth - clientsTrack.clientWidth;
+
+  /*
+    If we've reached the right side,
+    start moving left.
+  */
+  if (clientsTrack.scrollLeft >= maxScroll - 5) {
+    direction = -1;
+  }
+
+  /*
+    If we've reached the left side,
+    start moving right.
+  */
+  if (clientsTrack.scrollLeft <= 5) {
+    direction = 1;
+  }
+
+  clientsTrack.scrollBy({
+    left: scrollAmount * direction,
+    behavior: "smooth",
+  });
+}
+
+/*
+  Move automatically every 3 seconds
+*/
+setInterval(moveClients, 3000);
