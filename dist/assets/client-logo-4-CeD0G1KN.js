@@ -1,0 +1,1 @@
+var e=`/assets/client-logo-4-BsDl59gC.png`;export{e as t};

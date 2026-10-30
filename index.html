@@ -12,10 +12,12 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <link rel="preload" as="image" href="assets/img/hero-bg.webp" fetchpriority="high">
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Raleway:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -247,7 +249,7 @@
 
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+      <img src="assets/img/hero-bg.webp" alt="" fetchpriority="high" decoding="async" width="2000" height="1333">
 
       <div class="container d-flex flex-column align-items-center">
         <h2 data-aos="fade-up" data-aos-delay="100">Technology Built Around Your Business</h2>
@@ -268,7 +270,7 @@
         <div class="row gy-4">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3>ABOUT US</h3>
-            <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
+            <img src="assets/img/about.webp" class="img-fluid rounded-4 mb-4" alt="" loading="lazy" decoding="async">
             <p>Lider Technologies Ltd is a technology solutions and product development company dedicated to helping organizations 
               embrace digital transformation through practical, scalable, and user-centered innovation. As part of OakHill Capital 
               Holdings, we combine technical expertise with business insight to deliver solutions that create measurable value.</p>
@@ -295,7 +297,7 @@
               </p>
 
               <div class="position-relative mt-4">
-                <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
+                <img src="assets/img/about-2.webp" class="img-fluid rounded-4" alt="" loading="lazy" decoding="async">
                 <!--<a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>-->
               </div>
             </div>
@@ -375,7 +377,7 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/services-1.webp" class="img-fluid" alt="" loading="lazy" decoding="async">
               </div>
               <div class="details position-relative">
                 <div class="icon">
@@ -394,7 +396,7 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/services-2.webp" class="img-fluid" alt="" loading="lazy" decoding="async">
               </div>
               <div class="details position-relative">
                 <div class="icon">
@@ -412,7 +414,7 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/services-3.webp" class="img-fluid" alt="" loading="lazy" decoding="async">
               </div>
               <div class="details position-relative">
                 <div class="icon">
@@ -441,33 +443,33 @@
         <div class="row gy-4"> -->
 
           <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/client-1.webp" class="img-fluid" alt="" loading="lazy" decoding="async">
           </div> -->
           <!-- End Client Item -->
 
           <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/client-2.webp" class="img-fluid" alt="" loading="lazy" decoding="async">
           </div> -->
           <!-- End Client Item -->
 
           <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/4.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/4.webp" class="img-fluid" alt="" loading="lazy" decoding="async">
           </div> -->
           <!-- End Client Item -->
 
           <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/2.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/2.webp" class="img-fluid" alt="" loading="lazy" decoding="async">
           </div> -->
           <!-- End Client Item -->
 
           <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/3.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/3.webp" class="img-fluid" alt="" loading="lazy" decoding="async">
           </div> -->
 
           <!-- End Client Item -->
 
           <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/5.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/5.webp" class="img-fluid" alt="" loading="lazy" decoding="async">
           </div> -->
           <!-- End Client Item -->
 
@@ -487,39 +489,39 @@
       <div class="clients-track">
 
         <div class="client-logo">
-          <img src="assets/img/clients/client-1.png" alt="Client 1">
+          <img src="assets/img/clients/client-1.webp" alt="Client 1" loading="lazy" decoding="async">
         </div>
 
         <div class="client-logo">
-          <img src="assets/img/clients/client-2.png" alt="Client 2">
+          <img src="assets/img/clients/client-2.webp" alt="Client 2" loading="lazy" decoding="async">
         </div>
 
         <div class="client-logo">
-          <img src="assets/img/clients/4.png" alt="Client 3">
+          <img src="assets/img/clients/4.webp" alt="Client 3" loading="lazy" decoding="async">
         </div>
 
         <div class="client-logo">
-          <img src="assets/img/clients/2.png" alt="Client 4">
+          <img src="assets/img/clients/2.webp" alt="Client 4" loading="lazy" decoding="async">
         </div>
 
         <div class="client-logo">
-          <img src="assets/img/clients/3.png" alt="Client 5">
+          <img src="assets/img/clients/3.webp" alt="Client 5" loading="lazy" decoding="async">
         </div>
 
         <div class="client-logo">
-          <img src="assets/img/clients/5.png" alt="Client 6">
+          <img src="assets/img/clients/5.webp" alt="Client 6" loading="lazy" decoding="async">
         </div>
 
         <div class="client-logo">
-          <img src="assets/img/clients/6.png" alt="Client 6">
+          <img src="assets/img/clients/6.webp" alt="Client 6" loading="lazy" decoding="async">
         </div>
 
         <div class="client-logo">
-          <img src="assets/img/clients/7.png" alt="Client 6">
+          <img src="assets/img/clients/7.webp" alt="Client 6" loading="lazy" decoding="async">
         </div>
 
         <div class="client-logo">
-          <img src="assets/img/clients/8.png" alt="Client 6">
+          <img src="assets/img/clients/8.webp" alt="Client 6" loading="lazy" decoding="async">
         </div>
 
       </div>
@@ -585,7 +587,7 @@
                 </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-1.jpg" alt="" class="img-fluid">
+                <img src="assets/img/working-1.webp" alt="" class="img-fluid" loading="lazy" decoding="async">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -609,7 +611,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-2.jpg" alt="" class="img-fluid">
+                <img src="assets/img/working-2.webp" alt="" class="img-fluid" loading="lazy" decoding="async">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -634,7 +636,7 @@
                 </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-3.jpg" alt="" class="img-fluid">
+                <img src="assets/img/working-3.webp" alt="" class="img-fluid" loading="lazy" decoding="async">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -656,7 +658,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-4.jpg" alt="" class="img-fluid">
+                <img src="assets/img/working-4.webp" alt="" class="img-fluid" loading="lazy" decoding="async">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -755,7 +757,7 @@
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section dark-background">
 
-      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+      <img src="assets/img/testimonials-bg.webp" class="testimonials-bg" alt="" loading="lazy" decoding="async">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -779,7 +781,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-1.webp" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 <h3>James Asante</h3>
                 <h4>Ceo &amp; Founder</h4>
                 <div class="stars">
@@ -795,7 +797,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-2.webp" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 <h3>John Arthur</h3>
                 <h4>Designer</h4>
                 <div class="stars">
@@ -811,7 +813,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-3.webp" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 <h3>Beatrice Addai</h3>
                 <h4>Store Owner</h4>
                 <div class="stars">
@@ -827,7 +829,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-4.webp" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 <h3>Agnes Asante</h3>
                 <h4>Freelancer</h4>
                 <div class="stars">
@@ -843,7 +845,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-5.webp" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 <h3>Mercy Asare</h3>
                 <h4>Entrepreneur</h4>
                 <div class="stars">
@@ -891,11 +893,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/washlab-dashboard.png" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/washlab-dashboard.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>WashLab</h4>
                   <p>Laundry App for Students</p>
-                  <a href="assets/img/portfolio/washlab-dashboard.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/washlab-dashboard.webp" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="https://washlab.app" target="_blank" rel="noopener noreferrer" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -903,11 +905,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/styleo-dashboard.png" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/styleo-dashboard.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Styleo</h4>
                   <p>Beauty App</p>
-                  <a href="assets/img/portfolio/styleo-dashboard.png" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/styleo-dashboard.webp" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="https://styleoapp.com/" target="_blank" rel="noopener noreferrer" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -915,11 +917,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/porta-dashboard.png" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/porta-dashboard.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Porta</h4>
                   <p>Management App</p>
-                  <a href="assets/img/portfolio/porta-dashboard.png" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/porta-dashboard.webp" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -927,11 +929,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/grid-dashboard.png" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/grid-dashboard.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Grid Dashboard</h4>
                   <p>Responsive Dashboard Design</p>
-                  <a href="assets/img/portfolio/grid-dashboard.png" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/grid-dashboard.webp" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -939,11 +941,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/tali-dash.png" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/tali-dash.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Tali</h4>
                   <p>Tali App</p>
-                  <a href="assets/img/portfolio/tali-dash.png" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/tali-dash.webp" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -951,11 +953,11 @@
 
             <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/product-2.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Product 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/product-2.webp" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -964,11 +966,11 @@
 
             <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/branding-2.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Branding 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/branding-2.webp" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -977,11 +979,11 @@
 
             <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/books-2.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Books 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/books-2.webp" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -990,11 +992,11 @@
 
             <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/app-3.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>App 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/app-3.webp" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -1003,11 +1005,11 @@
 
             <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/product-3.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Product 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/product-3.webp" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -1016,11 +1018,11 @@
 
             <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/branding-3.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Branding 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/branding-3.webp" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -1029,11 +1031,11 @@
 
             <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/books-3.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Books 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/books-3.webp" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -1064,7 +1066,7 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/team/team-1.webp" class="img-fluid" alt="" loading="lazy" decoding="async"></div>
               <div class="member-info">
                 <h4>Walter White</h4>
                 <span>Chief Executive Officer</span>
@@ -1080,7 +1082,7 @@
 
           <!--<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/team/team-2.webp" class="img-fluid" alt="" loading="lazy" decoding="async"></div>
               <div class="member-info">
                 <h4>Sarah Jhonson</h4>
                 <span>Product Manager</span>
@@ -1096,7 +1098,7 @@
 
           <!--<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/team/team-3.webp" class="img-fluid" alt="" loading="lazy" decoding="async"></div>
               <div class="member-info">
                 <h4>William Anderson</h4>
                 <span>CTO</span>
@@ -1280,17 +1282,17 @@
   <!-- <div id="preloader"></div> --> 
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/vendor/php-email-form/validate.js" defer></script>
+  <script src="assets/vendor/aos/aos.js" defer></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js" defer></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js" defer></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js" defer></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js" defer></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js" defer></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 
 </body>
 
